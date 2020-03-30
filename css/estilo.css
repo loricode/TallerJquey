@@ -1,0 +1,177 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+#formulario{
+  width: 230px;
+  border: 1px solid #ffffff;
+  height: 140px;
+  margin: 0 auto;
+  padding: 10px;
+  
+ }
+
+#formulario input{
+    outline: none;
+    width: 225px;
+    height: 28px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+#formulario button{
+  width: 228px;   
+  height: 33px;
+  background-color:#2E59F8;
+  border: none;
+  color: white;
+}
+
+
+nav{
+	background-color: green;
+	margin-top: 0;
+	padding: 0;
+	height: 60px;
+
+
+}
+
+nav ul{
+ 
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+
+   display: inline;
+   text-align: center;
+   margin: 4 10px 6 6;
+}
+
+
+nav li h1 {
+   display: inline;
+   color: #ffffff;
+    padding: 15px;
+    float: left;
+    font-size: 30px;
+    font-family: cursive;
+
+  }
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  background-color: #AFCBC3;
+  grid-template-rows: 597px;
+ 
+  
+}
+.contenedor .columnaA {
+ grid-column: 1/4;
+ align-items: center;
+ background-color: #74A799;
+ 
+}
+body{
+  background-color: #74A799;
+}
+
+.contenedor .columnaB{
+ grid-column: 4/6;
+ justify-content: center;
+ background-color: green;
+ align-items: center;
+}
+
+
+.pregunta{
+  border: 1px solid  #26A20D;
+  width: 350px;
+  position: absolute;
+  height: 190px;
+  top: 300px;
+  padding: 10px;
+  margin-left: 150px;
+  padding: 15px;
+  align-items: center;
+}
+
+ .pregunta button{
+  width: 280px;   
+  height: 30px;
+  background-color: #26A20D;
+  border: none;
+  color: white;
+ }
+
+  .pregunta select{
+    outline: none;
+    width: 280px;
+    height: 29px;
+    margin-bottom: 30px;
+    align-content: center;
+  }
+
+.btn{
+  
+  width: 65px;
+  height: 35px;
+  margin: 7px;
+  margin-left: 40px;
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  background-color: #0DA289;
+  border: none;
+}
+
+.control{
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  background-color: #0D67A2;
+  border: none;
+  margin: 7px;
+  padding: 10px;
+}
+
+p{
+  color: white;
+   font-size: 20px;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+}
+
+.progreso{
+  margin: 0px;
+  padding: 0px;
+  width: 40px;
+  height: 30px;
+  margin-left: 4px;
+  border: none;
+
+}
+
+h4{
+  color: white;
+  font-family: cursive;
+}
+
+#pregunta2{
+  border: 1px solid  #26A20D;
+  width: 300px;
+  position: absolute;
+  height: 100px;
+  top: 300px;
+  padding: 10px;
+  margin-left: 200px;
+  padding: 15px;
+}
